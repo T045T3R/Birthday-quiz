@@ -41,15 +41,15 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
-If year in [1980, 1981, 1982, 1983, 1984,1985, 1986, 1987, 1988, 1989]:
+if year in [1980, 1981, 1982, 1983, 1984,1985, 1986, 1987, 1988, 1989]:
     gen = eighties
 else:
-If year in [1990, 1991, 1992, 1993, 1994,1995, 1996, 1997, 1998, 1999]:
+if year in [1990, 1991, 1992, 1993, 1994,1995, 1996, 1997, 1998, 1999]:
     gen = nineties
 else:
-If year >= 2000
+if year >= 2000
     gen = oughts
 else: 
     gen = stoneage
-If month in ["December", "January" "February:"]:
+if month in ["December", "January" "February:"]:
     
