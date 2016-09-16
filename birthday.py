@@ -48,8 +48,10 @@ else:
         gen = nineties
     else:
         if year >= 2000:
-            gen = oughts
+            gen = twothousands
         else: 
             gen = stoneage
 if month in ["December", "January" "February:"]:
-    
+    season = winter
+    else:
+        
