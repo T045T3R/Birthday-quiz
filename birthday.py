@@ -41,5 +41,8 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
-yearnum = 2016-int(year)
+If year in [1980, 1981, 1982, 1983, 1984,1985, 1986, 1987, 1988, 1989]:
+    gen = eighties
+else:
+If 
 
