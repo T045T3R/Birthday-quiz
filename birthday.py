@@ -48,4 +48,8 @@ If year in [1990, 1991, 1992, 1993, 1994,1995, 1996, 1997, 1998, 1999]:
     gen = nineties
 else:
 If year >= 2000
-    gen
+    gen = oughts
+else: 
+    gen = stoneage
+If month in ["December", "January" "February:"]:
+    
