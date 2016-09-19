@@ -63,7 +63,7 @@ else:
                             monthnum=7
                         else:
                              if month=="August"
-                              monthnum=7
+                              monthnum=8
                              else:
 
 if int(year) in [1980, 1981, 1982, 1983, 1984,1985, 1986, 1987, 1988, 1989]:
