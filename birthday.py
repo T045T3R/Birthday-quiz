@@ -102,7 +102,7 @@ else:
 if month == "October" and int(day) == 31:
     print("You were born on Halloween!")
 else:
-    if todaymonth == int(monthnum) and day == todaydate:
+    if todaymonth == int(monthnum) and int(day) == int(todaydate):
         print("Happy birthday!")
     else:
      print(name+", you are a "+season+" baby of the "+gen+".")
