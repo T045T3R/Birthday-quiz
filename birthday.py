@@ -52,6 +52,9 @@ else:
         else: 
             gen = stoneage
 if month in ["December", "January" "February:"]:
-    season = winter
+    season = Winter
 else:
-    if month in [
+    if month in ["March", "April", "May"]
+    season = Spring
+    else: 
+        if month in [
