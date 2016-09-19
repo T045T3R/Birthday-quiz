@@ -47,7 +47,7 @@ else:
     if year in [1990, 1991, 1992, 1993, 1994,1995, 1996, 1997, 1998, 1999]:
         gen = nineties
     else:
-        if year >= 2000:
+        if int(year) >= 2000:
             gen = "two thousands"
         else: 
             gen = "stone age"
@@ -62,4 +62,4 @@ else:
         else:
             if month in ["September", "October", "November"]:
              season = fall
-print(name+", you are a "+season+" baby of the "+year+"."
+print(name+", you are a "+season+" baby of the "+year+".")
