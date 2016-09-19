@@ -61,5 +61,5 @@ else:
             season = summer
         else:
             if month in ["September", "October", "November"]:
-             season = fall
-print(name+", you are a "+season+" baby of the "+year+".")
+             season = "fall"
+print(name+", you are a "+season+" baby of the "+gen+".")
