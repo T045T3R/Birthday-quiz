@@ -41,40 +41,40 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
-if month=="January"
+if month=="January":
     monthnum=1
 else:
-    if month=="February"
+    if month=="February":
         monthnum=2
     else:
-        if month=="March"
+        if month=="March":
             monthnum=3
         else:
-            if month=="April"
+            if month=="April":
                 monthnum=4
             else:
-                if month=="May"
+                if month=="May":
                     monthnum=5
                 else:
-                    if month=="June"
+                    if month=="June":
                         monthnum=6
                     else:
-                        if month=="July"
+                        if month=="July":
                             monthnum=7
                         else:
-                            if month=="August"
+                            if month=="August":
                                 monthnum=8
                              else:
-                                if month=="September"
+                                if month=="September":
                                     monthnum=9
                                 else:
-                                    if month=="October"
+                                    if month=="October":
                                         monthnum=10
                                     else:
-                                         if month=="November"
+                                         if month=="November":
                                             monthnum=11
                                         else:
-                                            if month=="December"
+                                            if month=="December":
                                                 monthnum=12
                                             else:
 
