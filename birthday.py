@@ -63,7 +63,7 @@ else:
         else:
             if month in ["June", "July", "August"]:
                 season = "summer"
-        else:
+            else:
             if month in ["September", "October", "November"]:
              season = "fall"
 print(name+", you are a "+season+" baby of the "+gen+".")
