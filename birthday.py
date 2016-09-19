@@ -42,7 +42,7 @@ todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
 
-if month == October and day == 31:
+if month == "October" and day == 31:
     Print("You were born on Halloween!")
 else:
     if year in [1980, 1981, 1982, 1983, 1984,1985, 1986, 1987, 1988, 1989]:
