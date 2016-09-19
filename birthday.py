@@ -41,9 +41,12 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
-if month==january
+if month=="January"
     monthnum=1
 else:
+    if month=="February"
+        monthnum=2
+    else:
 
 if int(year) in [1980, 1981, 1982, 1983, 1984,1985, 1986, 1987, 1988, 1989]:
     gen = "eighties"
