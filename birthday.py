@@ -64,7 +64,7 @@ else:
                 if month in ["September", "October", "November"]:
                  season = "fall"
                      
-if month == "October" and day == 31:
+if month == "October" and int(day) == 31:
     Print("You were born on Halloween!")
 else:
     print(name+", you are a "+season+" baby of the "+gen+".")
