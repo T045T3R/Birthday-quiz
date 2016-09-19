@@ -58,12 +58,12 @@ else:
     if month in ["December", "January" "February:"]:
         season = "winter"
     else:
-        if month in ["March", "April", "May"]:
-            season = "spring"
-        else:
-            if month in ["June", "July", "August"]:
-                season = "summer"
+            if month in ["March", "April", "May"]:
+                season = "spring"
             else:
-            if month in ["September", "October", "November"]:
-             season = "fall"
+                if month in ["June", "July", "August"]:
+                    season = "summer"
+                else:
+                    if month in ["September", "October", "November"]:
+                     season = "fall"
 print(name+", you are a "+season+" baby of the "+gen+".")
