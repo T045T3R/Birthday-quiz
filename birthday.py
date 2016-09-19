@@ -60,5 +60,5 @@ else:
         if month in ["June", "July", "August"]:
             season = summer
         else:
-            if month in ["September", "October", "November"]
-            season = fall
+            if month in ["September", "October", "November"]:
+             season = fall
