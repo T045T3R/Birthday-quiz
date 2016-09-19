@@ -56,5 +56,5 @@ if month in ["December", "January" "February:"]:
 else:
     if month in ["March", "April", "May"]:
         season = Spring
-        else
+    else:
             if month in [
