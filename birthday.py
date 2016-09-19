@@ -50,6 +50,12 @@ else:
         if month=="March"
             monthnum=3
         else:
+            if month=="April"
+                monthnum=4
+            else:
+                if month=="May"
+                    monthnum=5
+                else:
 
 if int(year) in [1980, 1981, 1982, 1983, 1984,1985, 1986, 1987, 1988, 1989]:
     gen = "eighties"
