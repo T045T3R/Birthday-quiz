@@ -45,10 +45,10 @@ todaydate = datetime.today().day
 if month == "October" and day == 31:
     Print("You were born on Halloween!")
 else:
-    if year in [1980, 1981, 1982, 1983, 1984,1985, 1986, 1987, 1988, 1989]:
+    if int(year) in [1980, 1981, 1982, 1983, 1984,1985, 1986, 1987, 1988, 1989]:
         gen = eighties
     else:
-        if year in [1990, 1991, 1992, 1993, 1994,1995, 1996, 1997, 1998, 1999]:
+        if int(year) in [1990, 1991, 1992, 1993, 1994,1995, 1996, 1997, 1998, 1999]:
             gen = nineties
         else:
             if int(year) >= 2000:
